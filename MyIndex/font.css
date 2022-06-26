@@ -14,13 +14,13 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url(https://css.sakurasep.club/SentyGoldenBell.woff2) format('woff2');
+  src: url(https://cdn.jsdelivr.net/gh/sakurasep/fonts-cdn@master/SentyGoldenBell.woff2) format('woff2');
 }
 
 
 @font-face {
     font-family: "MiSans";
-    src: url('http://css.sakurasep.club/Fonts/MiSans/MiSans-Regular.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/sakurasep/fonts-cdn@master/MiSans/MiSans-Regular.woff') format('woff');
     font-display: sans-serif;
 }
 /* 
