@@ -20,6 +20,7 @@
   --color-meta: $color-meta
   --color-read-bkg: $color-read-bkg
   --color-read-post: $color-read-post
+  --color-copyright-bkg: $color-copyright-bkg
 
 *
   box-sizing: border-box
@@ -109,6 +110,8 @@ if hexo-config('comments.service')=='discuss' || hexo-config('comments.service')
   .blur#comments
     @supports (backdrop-filter: blur(20px))
       backdrop-filter: unset
+  #layoutHelper-comments
+    margin-bottom: 100px
 
 .shadow
   box-shadow: $boxshadow-card
