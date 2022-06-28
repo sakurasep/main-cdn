@@ -43,7 +43,7 @@ setTimeout(function () {
 //延迟加载音乐播放器
 function downloadJSAtOnload() {
     var element = document.createElement("script");
-    element.src = "./js/music.js";
+    element.src = "https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/MyIndex/music.js";
     document.body.appendChild(element);
 }
 if (window.addEventListener)
@@ -70,7 +70,7 @@ document.body.appendChild(new_element);
 if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
     var head = document.getElementsByTagName('head')[0];
     var link = document.createElement('link');
-    link.href = './css/firefox.css';
+    link.href = 'https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/MyIndex/firefox.css';
     link.rel = 'stylesheet';
     link.type = 'text/css';
     head.appendChild(link);
