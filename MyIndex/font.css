@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Pacifico-Regular";
-    src: url('../font/Pacifico-Regular.ttf') format('truetype');
+    src: url('https://fonts.sakurasep.club/fonts-cdn/Pacifico-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "UnidreamLED";
-    src: url('../font/UnidreamLED.ttf') format('truetype');
+    src: url('https://fonts.sakurasep.club/fonts-cdn/UnidreamLED.ttf') format('truetype');
 }
 
 /* Logo 字体 */
@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url(https://fonts.sakurasep.club/fonts-cdn/SentyGoldenBell.woff2) format('woff2');
+  src: url('https://fonts.sakurasep.club/fonts-cdn/SentyGoldenBell.woff2') format('woff2');
 }
 
 
